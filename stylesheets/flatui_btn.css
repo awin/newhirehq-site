@@ -1,0 +1,219 @@
+/* line 2, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn {
+  border: none;
+  background: #34495e;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
+
+/* line 21, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn:hover, .btn:focus {
+  background-color: #4e6d8d;
+  color: white;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden; }
+
+/* line 30, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn:active, .btn.active {
+  background-color: #2c3e50;
+  color: rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+/* line 37, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.disabled, .btn[disabled] {
+  background-color: #95a5a6;
+  color: white; }
+
+/* line 42, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-large {
+  padding-bottom: 12px;
+  padding-top: 13px; }
+
+/* line 47, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-primary {
+  background-color: #1abc9c; }
+
+/* line 50, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+  background-color: #2fe2bf; }
+
+/* line 53, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-primary:active, .btn.btn-primary.active {
+  background-color: #16a085; }
+
+/* line 57, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-grey {
+  color: #222;
+  background-color: #DDDDDD;
+  border: 1px solid  #BBB;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 64, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-grey:hover, .btn.btn-grey:focus {
+  color: #222;
+  background-color: #E5E5E5;
+  border: 1px solid  #D1D1D1;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 70, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-grey:active, .btn.btn-grey.active {
+  color: #222;
+  background-color: #E5E5E5;
+  border: 1px solid  #D1D1D1;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 77, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-info {
+  background-color: #1f74ac;
+  border: 1px solid  #175781;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 83, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-info:hover, .btn.btn-info:focus {
+  background-color: #2487c9;
+  border: 1px solid  #1f74ac;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 89, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-info:active, .btn.btn-info.active {
+  background-color: #2383c4; }
+
+/* line 93, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-danger {
+  background-color: #c72918;
+  border: 1px solid  #991f13;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 99, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-danger:hover, .btn.btn-danger:focus {
+  background-color: #e53e2d;
+  border: 1px solid  #c72918;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 104, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-danger:active, .btn.btn-danger.active {
+  background-color: #dc2d1b; }
+
+/* line 107, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-success {
+  background-color: #468847;
+  border: 1px solid #356635;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 112, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-success:hover, .btn.btn-success:focus {
+  background-color: #58a959;
+  border: 1px solid #468847;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 117, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-success:active, .btn.btn-success.active {
+  background-color: #27ad60; }
+
+/* line 121, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-warning {
+  background-color: #f1c40f; }
+
+/* line 124, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-warning:hover, .btn.btn-warning:focus {
+  background-color: #f4d03f; }
+
+/* line 127, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-warning:active, .btn.btn-warning.active {
+  background-color: #cea70c; }
+
+/* line 130, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-toolbar .btn {
+  font-size: 18px;
+  padding: 10px 14px 9px; }
+
+/* line 134, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-toolbar .btn:first-child {
+  -webkit-border-radius: 6px 0 0 6px;
+  -moz-border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px; }
+
+/* line 140, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-toolbar .btn:last-child {
+  -webkit-border-radius: 0 6px 6px 0;
+  -moz-border-radius: 0 6px 6px 0;
+  border-radius: 0 6px 6px 0; }
+
+/* line 146, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-oval {
+  border-radius: 100px;
+  border-width: 0px 0px 2px 0px; }
+
+/* line 150, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-oval:hover {
+  border-radius: 100px;
+  border-width: 0px 0px 2px 0px; }
+
+/* line 154, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-small {
+  padding: 2px 12px; }
+
+/* line 157, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-small [class^="icon-"], .btn-small [class*=" icon-"] {
+  margin-top: 2px; }
+
+/* line 161, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn [class^="icon-"], .btn-small [class*=" icon-"] {
+  margin-top: 2px; }
+
+/* line 165, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-graze {
+  padding: 0px 5px; }
+
+/* line 168, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-graze [class^="icon-"], .btn-graze [class*=" icon-"] {
+  margin-top: 2px; }
+
+/* line 172, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn [class^="icon-"], .btn-graze [class*=" icon-"] {
+  margin-top: 2px; }
+
+/* line 176, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-boldaction {
+  padding: 20px;
+  font-size: 32px;
+  font-weight: bold; }
+
+/* line 182, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-nsuccess {
+  background-color: #58a959;
+  border: 1px solid #468847;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 187, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-nsuccess:hover, .btn.btn-nsuccess:focus {
+  background-color: #58a959;
+  border: 1px solid #468847;
+  border-width: 0px 1px 2px 1px; }
+
+/* line 192, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn.btn-nsuccess:active, .btn.btn-nsuccess.active {
+  background-color: #27ad60; }
+
+/* line 198, /mnt/code/weavelabs/newhirehq/newhirehq-mm/source/stylesheets/flatui_btn.css.scss */
+.btn-group .btn {
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  padding: 1px 8px; }
