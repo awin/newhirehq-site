@@ -1,0 +1,20 @@
+
+.navbar
+  .navbar-inner#page_head_navbar
+    .container
+      =link_to  '/', :class => 'brand' do
+        %span#whole NewHire
+
+      %ul.nav.pull-right#topheader
+        %li
+          =link_to 'Login', 'http://app.newhirehq.com/login', :id => 'signin'
+        %li
+          =link_to 'Plans & Pricing', "/pricing", :id => 'pricing'
+        %li
+          =link_to 'Features', "/features", :id => 'tour'
+        %li
+          =link_to 'The Talent Desk', "/talent-desk", :id => 'hrdesk'
+        %li
+          =link_to "What's New", "http://blog.newhirehq.com/tagged/new-feature", :id => 'news'
+
+

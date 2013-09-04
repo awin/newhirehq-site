@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title Your Candidate Pipeline | NewHire
+    %link{:rel =>"icon", :type=>"image/png", :href=>"/favicon.png"}
+    = stylesheet_link_tag "application", :media => "all"
+    = stylesheet_link_tag "static", :media => "all"
+
+  %body
+    = partial "layouts/header"
+    = yield
+    = partial "layouts/footer"
+
+    = javascript_include_tag "application"
+    = javascript_include_tag "jquery/jquery.min"
+
